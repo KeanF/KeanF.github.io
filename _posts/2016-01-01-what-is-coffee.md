@@ -74,5 +74,3 @@ int main() {
   pthread_exit(NULL);
 }
 {% endhighlight %}
-
-Source / Read more [Wikipedia](https://en.wikipedia.org/wiki/Coffee).

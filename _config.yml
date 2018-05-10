@@ -1,3 +1,5 @@
 timezone: America/New_York
 encoding: utf-8
 excerpt_separator: <!--more-->
+sass:
+  style: compressed
