@@ -16,14 +16,14 @@ header, footer {
 }
 
 header {
-  &.a {
+  a {
     text-decoration: none;
     color: $color-white;
   }
 }
 
 footer {
-  &.a {
+  a {
     text-decoration: none;
     color: $color-white;
   }
@@ -52,7 +52,7 @@ hr {
 }
 
 nav.main-nav {
-  &.ul {
+  ul {
     @extend %no-pm;
     list-style: none;
     float: right;
@@ -60,8 +60,10 @@ nav.main-nav {
       float: none;
     }
   }
-  .li, .a {
+  li, a {
     display: inline-block;
+  }
+  li a {
     padding: 10px;
   }
 }
@@ -84,7 +86,7 @@ div {
     max-width:    750px;
     margin-left:  auto;
     margin-right: auto;
-    .date {
+    &.date {
       float: right;
     }
   }
